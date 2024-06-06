@@ -1,0 +1,8 @@
+syntax = "proto3";
+package proto.java.options;
+option java_package = "proto.java.options";
+option java_multiple_files = true;
+
+message Demo{
+    uint32 id =1;
+}

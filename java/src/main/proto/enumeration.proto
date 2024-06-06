@@ -1,0 +1,12 @@
+syntax = "proto3";
+package proto.java.enumeration;
+enum Colors{
+    COLORS_UNSPECIFIED=0;
+    COLORS_GREEN=1;
+    COLORS_WHITE=2;
+}
+
+
+message Enumeration{
+    Colors color=1;
+}

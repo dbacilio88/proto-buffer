@@ -1,0 +1,9 @@
+syntax = "proto3";
+package proto.java.maps;
+
+message IdWraper{
+    uint32 id = 1;
+}
+message MapExample{
+    map<string,IdWraper> map =1;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package  golang;
+
+option go_package = "github.com/dbacilio88/protoc-buffer/golang/proto";
+
+message Person{
+    string name = 1;
+    int32 age =2;
+}
